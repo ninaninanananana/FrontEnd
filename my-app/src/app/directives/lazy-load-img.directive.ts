@@ -19,7 +19,7 @@ export class LazyLoadImgDirective implements AfterViewInit {
 
     private el: ElementRef<HTMLElement>,
   ) {
-console.log(this.appLazyLoadImg)
+
   }
 
   ngAfterViewInit(): void {
