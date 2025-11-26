@@ -1,5 +1,5 @@
 
-
+@import '../../../styles.scss';
 
 .gallery {
 padding: 40px;
@@ -15,12 +15,13 @@ height: 200px;
 object-fit: cover;
 border-radius: 14px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-transition: transform 0.3s;
+transition: transform 0.8s $soft-popup;
+
 }
 
 
 .gallery div:hover {
-transform: scale(1.05);
+transform: translateY(-100px);
 }
 
 

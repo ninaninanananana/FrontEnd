@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+// cubic-bezier(x1, y1, x2, y2)
+// x：时间轴（必须在 0～1 之间）
+// y：数值轴（可以超出 0～1！）当 y 超过 1 或小于 0 时，动画值就会冲过终点再回弹，
+//popup-animation
+//轻柔弹性
+$soft-popup:cubic-bezier(0.34, 1.31, 0.7, 1);
+
+//爆发力强
+$strong-popup:cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+//彈簧感
+$spring-popup:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+//推背感
+$big-strong-popup:cubic-bezier(0.68, -0.55, 0.27, 1.55)
+
